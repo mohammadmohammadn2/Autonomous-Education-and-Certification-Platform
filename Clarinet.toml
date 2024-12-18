@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.course-management]
+path = 'contracts/course-management.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.education-nft]
 path = 'contracts/education-nft.clar'
 clarity_version = 2
